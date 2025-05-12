@@ -334,3 +334,13 @@ body {
         margin-top: 1rem;
     }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+    footer .footer-col:nth-child(2) {
+      display: none !important;
+    }
+  
+    footer .grid {
+      grid-template-columns: 1fr 1fr !important;
+    }
+  }
+  
