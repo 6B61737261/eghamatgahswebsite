@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رزرو آنلاین اقامتگاه بوم‌گردی گل‌های شمعدونی در فومن</title>
+    <meta name="description"
+        content="اقامتگاه بوم‌گردی گل‌های شمعدونی واقع در فومن، گیلان. رزرو آنلاین اقامتگاه سنتی با امکانات مدرن، صبحانه محلی، فضای جنگلی و دسترسی آسان به ماسوله و قلعه رودخان.">
+    <meta name="keywords"
+        content="رزرو اقامتگاه، اقامتگاه شمعدونی، بوم‌گردی فومن، اقامت شمال، ماسوله، قلعه رودخان، گیلان، طبیعت گردی">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://example.com/">
+
+    <!-- Open Graph Meta -->
+    <meta property="og:title" content="اقامتگاه گل‌های شمعدونی | رزرو آنلاین اقامت سنتی در فومن">
+    <meta property="og:description"
+        content="رزرو آنلاین اقامتگاه بوم‌گردی گل‌های شمعدونی در قلب طبیعت گیلان، نزدیک به ماسوله و قلعه رودخان. تجربه‌ای آرام و دل‌نشین.">
+    <meta property="og:image" content="https://example.com/img/preview.jpg">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Meta -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="اقامتگاه گل‌های شمعدونی | رزرو آنلاین">
+    <meta name="twitter:description" content="رزرو اقامتگاه سنتی با صبحانه محلی، فضای جنگلی و امکانات مدرن در فومن">
+    <meta name="twitter:image" content="https://example.com/img/preview.jpg">
+
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Vazir Font CDN -->
+    <link href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css" rel="stylesheet">
+    <!-- Jalalidatepicker CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/jalalidatepicker/dist/jalalidatepicker.min.css">
+    <!-- Swiper CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Animate CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- بعد از لینک‌های دیگه -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-50">
+    <nav id="header"
+        class="fixed w-full z-50 bg-gradient-to-r from-indigo-700 to-indigo-900 text-white shadow-lg transition-all duration-300 ease-in-out">
+        <div class="container mx-auto flex flex-wrap items-center justify-between py-2 px-4">
+            <!-- لوگو -->
+            <div class="flex items-center">
+                <a href="#home" class="flex items-center space-x-2 space-x-reverse">
+                    <i class="fas fa-seedling text-2xl text-indigo-200"></i>
+                    <span class="text-xl font-bold tracking-wide">گل‌های شمعدونی</span>
+                </a>
+            </div>
+
+            <!-- دکمه همبرگر منو برای موبایل -->
+            <div class="block lg:hidden">
+                <button id="menu-toggle"
+                    class="flex items-center px-3 py-2 border rounded border-indigo-200 hover:border-white hover:bg-indigo-800 transition-all duration-200">
+                    <i class="fas fa-bars text-indigo-200 hover:text-white"></i>
+                </button>
+            </div>
+
+            <!-- منوی اصلی -->
+            <div id="main-nav"
+                class="hidden w-full lg:flex lg:items-center lg:w-auto lg:justify-end transform transition-transform duration-300 ease-in-out">
+                <ul class="flex flex-col lg:flex-row lg:space-x-6 lg:space-x-reverse mt-4 lg:mt-0">
+                    <li class="mb-2 lg:mb-0">
+                        <a href="#home"
+                            class="nav-link block py-2 px-4 rounded hover:bg-indigo-600 transition-all duration-200 ease-in-out transform hover:scale-105">خانه</a>
+                    </li>
+                    <li class="mb-2 lg:mb-0">
+                        <a href="#gallery"
+                            class="nav-link block py-2 px-4 rounded hover:bg-indigo-600 transition-all duration-200 ease-in-out transform hover:scale-105">گالری</a>
+                    </li>
+                    <li class="mb-2 lg:mb-0">
+                        <a href="#about"
+                            class="nav-link block py-2 px-4 rounded hover:bg-indigo-600 transition-all duration-200 ease-in-out transform hover:scale-105">درباره
+                            ما</a>
+                    </li>
+                    <li class="mb-2 lg:mb-0">
+                        <a href="#contact"
+                            class="nav-link block py-2 px-4 rounded hover:bg-indigo-600 transition-all duration-200 ease-in-out transform hover:scale-105">تماس
+                            با ما</a>
+                    </li>
+                    <li>
+                        <a href="#" class="book-now-btn block py-2 px-4 rounded bg-indigo-500 hover:bg-indigo-400 font-medium transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">ورود</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero flex items-start justify-center text-white relative" data-aos="slide-down">
+        <div class="absolute inset-0 bg-black opacity-70 z-10"></div>
+        <div class="container mx-auto px-4 pt-0 relative z-20">
+            <div class="text-center mt-8 pb-8 hero-content">
+                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold hero-text-margin hero-text">گل های شمعدونی</h1>
+                <p class="text-base sm:text-lg lg:text-3xl font-normal hero-text-margin hero-text mt-5">اقامتگاه بوم
+                    گردی در قلب طبیعت شمال</p>
+                <p class="text-base sm:text-lg lg:text-xl hero-text-margin-last hero-text mt-5">تجربه‌ای متفاوت از آرامش
+                    و زیبایی‌های طبیعت شمال ایران</p>
+
+                <!-- Booking Form -->
+                <div class="booking-form p-4 sm:p-8">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">رزرو آنلاین اقامتگاه</h2>
+
+                    <div class="flex flex-col space-y-4">
+                        <div class="flex flex-col md:flex-row md:justify-center gap-4">
+                            <div class="w-full md:w-1/2">
+                                <label for="check-in"
+                                    class="block text-gray-700 text-sm font-bold mb-2 text-right">تاریخ ورود</label>
+                                <input type="text" id="check-in" class="jalali-datepicker w-full" data-jdp
+                                    placeholder="انتخاب تاریخ">
+                            </div>
+                            <div class="w-full md:w-1/2">
+                                <label for="check-out"
+                                    class="block text-gray-700 text-sm font-bold mb-2 text-right">تاریخ خروج</label>
+                                <input type="text" id="check-out" class="jalali-datepicker w-full" data-jdp
+                                    placeholder="انتخاب تاریخ">
+                            </div>
+                        </div>
+                        <button id="search-btn"
+                            class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300"
+                            onclick="alert('بررسی امکان رزرو نمایشی است!')">
+                            بررسی امکان رزرو
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-white" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">چرا اقامتگاه ما را انتخاب کنید؟</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
+                    <div class="bg-indigo-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-tree text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">محیطی آرام و سرسبز</h3>
+                    <p class="text-gray-600">اقامتگاهی در دل طبیعت بکر شمال با هوای پاک و منظره‌ای چشم‌نواز</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
+                    <div class="bg-indigo-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-utensils text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">صبحانه محلی</h3>
+                    <p class="text-gray-600">سرو صبحانه محلی شمالی با مواد اولیه تازه و ارگانیک</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
+                    <div class="bg-indigo-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-wifi text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">امکانات مدرن</h3>
+                    <p class="text-gray-600">دارای تمام امکانات رفاهی شامل وای‌فای، پارکینگ، سرویس بهداشتی اختصاصی و...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- مکان های نزدیک -->
+
+    <section class="py-16 bg-white" id="nearby-places" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">مکان‌های گردشگری نزدیک</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- کارت‌ها اینجا اضافه می‌شن -->
+                <div class="flex flex-col h-full bg-gray-50 rounded-2xl shadow-md overflow-hidden">
+                    <img src="./img/sample.jpg" alt="نام مکان" class="w-full h-48 object-cover p-6 pb-0">
+                    <div class="flex flex-col justify-between flex-grow p-8">
+                        <h3 class="text-lg font-bold mb-3">نام مکان</h3>
+                        <p class="text-gray-600 mb-4">توضیح کوتاه درباره مکان مورد نظر</p>
+                        <button
+                            class="w-full bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">مشاهده</button>
+                    </div>
+                </div>
+
+                <div class="flex flex-col h-full bg-gray-50 rounded-2xl shadow-md overflow-hidden">
+                    <img src="./img/sample.jpg" alt="نام مکان" class="w-full h-48 object-cover p-6 pb-0">
+                    <div class="flex flex-col justify-between flex-grow p-8">
+                        <h3 class="text-lg font-bold mb-3">نام مکان</h3>
+                        <p class="text-gray-600 mb-4">توضیح کوتاه درباره مکان مورد نظر</p>
+                        <button
+                            class="w-full bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">مشاهده</button>
+                    </div>
+                </div>
+                <div class="flex flex-col h-full bg-gray-50 rounded-2xl shadow-md overflow-hidden">
+                    <img src="./img/sample.jpg" alt="نام مکان" class="w-full h-48 object-cover p-6 pb-0">
+                    <div class="flex flex-col justify-between flex-grow p-8">
+                        <h3 class="text-lg font-bold mb-3">نام مکان</h3>
+                        <p class="text-gray-600 mb-4">توضیح کوتاه درباره مکان مورد نظر</p>
+                        <button
+                            class="w-full bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">مشاهده</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16 bg-white" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">گالری تصاویر</h2>
+
+            <!-- Swiper Slider -->
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="./img/1.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/1.jpg" alt="تصویر گالری 1" class="gallery-image">
+                        </a>
+                      </div>                      
+                      <div class="swiper-slide">
+                        <a href="./img/2.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/2.jpg" alt="تصویر گالری 2" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/3.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/3.jpg" alt="تصویر گالری 3" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/4.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/4.jpg" alt="تصویر گالری 4" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/5.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/5.jpg" alt="5" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/6.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/6.jpg" alt="تصویر گالری 6" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/7.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/7.jpg" alt="تصویر گالری 7" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/8.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/8.jpg" alt="تصویر گالری 8" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/9.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/9.jpg" alt="9" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/10.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/10.jpg" alt="تصویر گالری 10" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/11.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/11.jpg" alt="تصویر گالری 11" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/12.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/12.jpg" alt="تصویر گالری 12" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/13.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/13.jpg" alt="تصویر گالری 13" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/14.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/14.jpg" alt="تصویر گالری 14" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/15.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/15.jpg" alt="تصویر گالری 15" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/16.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/16.jpg" alt="تصویر گالری 16" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/17.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/17.jpg" alt="تصویر گالری 17" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/18.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/18.jpg" alt="تصویر گالری 18" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/19.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/19.jpg" alt="تصویر گالری 19" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/20.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/20.jpg" alt="تصویر گالری 20" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/21.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/21.jpg" alt="تصویر گالری 21" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/22.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/22.jpg" alt="تصویر گالری 22" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/23.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/23.jpg" alt="تصویر گالری 23" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/24.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/24.jpg" alt="تصویر گالری 24" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <a href="./img/25.jpg" class="glightbox" data-gallery="gallery">
+                          <img src="./img/25.jpg" alt="تصویر گالری 25" class="gallery-image">
+                        </a>
+                      </div>
+                      
+                </div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-prev-bar"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next-bar"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+    <div id="image-viewer" data-aos="fade-up" class="hidden fixed z-50 inset-0 bg-black bg-opacity-80 overflow-y-auto">
+        <div class="modal-content bg-white m-auto mt-10 rounded-lg shadow-lg" style="max-width: 90%; max-height: 90%;">
+            <div class="p-4 relative">
+                <span
+                    class="close absolute top-0 right-0 px-4 py-2 text-gray-500 hover:text-gray-800 cursor-pointer">×</span>
+                <img id="viewer-image" class="w-full h-auto" src="" alt="Full Size Image">
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" data-aos="fade-up">
+        <div class="container px-4 mx-auto">
+            <h2>درباره اقامتگاه ما</h2>
+            <div class="flex flex-col md:flex-row items-stretch">
+                <div class="about-image-container">
+                    <img src="./img/IMG-20250503-WA0021.jpg" alt="درباره اقامتگاه">
+                </div>
+                <div class="about-text-container">
+                    <ul>
+                        <li>خانه سنتی ۲۵۰ متری دوطبقه شیک</li>
+                        <li>فضای کاملاً رویایی با ساختار سنتی چوبی-کاهگلی</li>
+                        <li>سه خوابه با تراس و تلار شیشه‌ای و تلار دلباز</li>
+                        <li>واقع در باغ بزرگ ۶۰۰۰ متری جنگلی، دنج و کوهپایه‌ای</li>
+                        <li>فول امکانات و تمیز با فضای بازی برای کودکان</li>
+                        <li>سرویس ایرانی و فرنگی در داخل و حیاط مجموعه</li>
+                        <li>دارای آتشکده سنتی برای دورهمی</li>
+                        <li>دارای آلاچیق درختی و جنگل اختصاصی</li>
+                        <li>دارای باغ دام و طیور و تجربه حس زیبای زندگی روستایی</li>
+                        <li>دارای رستوران مرکزی با غذاهای خوشمزه محلی</li>
+                        <li>واقع در بهترین لوکیشن نزدیک ماسوله، قلعه رودخان و ماسال</li>
+                        <li>دربست (با وجود مدیریت داخلی در سوئیت جداگانه‌ای در همین باغ)</li>
+                        <li>ظرفیت مجموعه تا ۳۰ نفر</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-50" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">تماس با ما</h2>
+
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="md:w-1/2">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-4">اطلاعات تماس</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <i class="fas fa-map-marker-alt text-indigo-600 text-xl mt-1 ml-3"></i>
+                                <div>
+                                    <h4 class="font-semibold">آدرس</h4>
+                                    <p class="text-gray-600">گیلان، فومن، جاده ماسوله، باغشهر ماکلوان، روستای میان رز،
+                                        کوچه نصر، بومگردی گلهای شمعدونی</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-phone-alt text-indigo-600 text-xl ml-3"></i>
+                                <div>
+                                    <h4 class="font-semibold">تلفن</h4>
+                                    <p class="text-gray-600"></p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-envelope text-indigo-600 text-xl ml-3"></i>
+                                <div>
+                                    <h4 class="font-semibold">ایمیل</h4>
+                                    <p class="text-gray-600"><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                            data-cfemail="b29b9c949db2958097979c8186938bdc919d9f">[email protected]</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:w-1/2">
+                    <form id="contact-form" class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 text-sm font-bold mb-2">نام و نام
+                                خانوادگی</label>
+                            <input type="text" id="name"
+                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                                required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 text-sm font-bold mb-2">ایمیل</label>
+                            <input type="text" id="email"
+                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                                required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-700 text-sm font-bold mb-2">پیام شما</label>
+                            <textarea id="message" rows="4"
+                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                                required></textarea>
+                        </div>
+
+                        <button type="submit"
+                            class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
+                            ارسال پیام
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Google Map -->
+            <div class="mt-12">
+                <h3 class="text-xl font-bold text-center text-gray-800 mb-6">موقعیت ما روی نقشه</h3>
+                <div class="w-full h-96 rounded-lg shadow-md overflow-hidden">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5660.784716262804!2d49.181654725354996!3d37.223782328459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x401e2daea65e383d%3A0x66f25a66b3eae96!2z2KfZgtin2YXYqt peer2KfZhyDYqNmI2YXar9ix2K_bjCDYqtmE2KfYsSDYtNmF2LnYr9mI2YbbjCDZh9in!5e0!3m2!1sen!2sde!4v1746282050908!5m2!1sen!2sde"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gradient-to-r from-indigo-900 to-indigo-700 text-white py-12">
+        <div class="container mx-auto px-4">
+            <!-- بخش اصلی فوتر -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+                <!-- ستون اول - درباره ما -->
+                <div class="footer-col transform transition-all hover:translate-y-[-5px] duration-300">
+                    <h3 class="text-xl font-bold mb-4 pb-2 border-b border-indigo-400">درباره گل‌های شمعدونی</h3>
+                    <p class="text-indigo-100 mb-4">اقامتگاه بوم گردی گل‌های شمعدونی، مکانی آرام و دنج در دل طبیعت زیبای
+                        شمال ایران که تجربه‌ای خاطره‌انگیز را برای شما رقم می‌زند.</p>
+                    <div class="flex space-x-4 space-x-reverse">
+                        <a href="#"
+                            class="w-8 h-8 rounded-full bg-indigo-600 flex items-center justify-center hover:bg-white hover:text-indigo-600 transition-all duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#"
+                            class="w-8 h-8 rounded-full bg-indigo-600 flex items-center justify-center hover:bg-white hover:text-indigo-600 transition-all duration-300">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="#"
+                            class="w-8 h-8 rounded-full bg-indigo-600 flex items-center justify-center hover:bg-white hover:text-indigo-600 transition-all duration-300">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ستون دوم - دسترسی سریع -->
+                <div class="footer-col transform transition-all hover:translate-y-[-5px] duration-300">
+                    <h3 class="text-xl font-bold mb-4 pb-2 border-b border-indigo-400">دسترسی سریع</h3>
+                    <ul class="space-y-2">
+                        <li>
+                            <a href="#home"
+                                class="text-indigo-100 hover:text-white hover:mr-2 flex items-center transition-all duration-300">
+                                <i class="fas fa-chevron-left ml-2"></i>
+                                <span>صفحه اصلی</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about"
+                                class="text-indigo-100 hover:text-white hover:mr-2 flex items-center transition-all duration-300">
+                                <i class="fas fa-chevron-left ml-2"></i>
+                                <span>درباره ما</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#gallery"
+                                class="text-indigo-100 hover:text-white hover:mr-2 flex items-center transition-all duration-300">
+                                <i class="fas fa-chevron-left ml-2"></i>
+                                <span>گالری تصاویر</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact"
+                                class="text-indigo-100 hover:text-white hover:mr-2 flex items-center transition-all duration-300">
+                                <i class="fas fa-chevron-left ml-2"></i>
+                                <span>تماس با ما</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- ستون سوم - اطلاعات تماس -->
+                <div class="footer-col transform transition-all hover:translate-y-[-5px] duration-300">
+                    <h3 class="text-xl font-bold mb-4 pb-2 border-b border-indigo-400">اطلاعات تماس</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 ml-3 text-indigo-300"></i>
+                            <span class="text-indigo-100">گیلان، فومن، جاده ماسوله، باغشهر ماکلوان، روستای میان
+                                رز</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt ml-3 text-indigo-300"></i>
+                            <span class="text-indigo-100">013-0000000</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope ml-3 text-indigo-300"></i>
+                            <span class="text-indigo-100"><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                    data-cfemail="d2fbfcf4fdd2f5f7e0f3fcfbe7ffbffefdf6f5f7bcfbe0">[email protected]</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- خط جداکننده -->
+            <div class="border-t border-indigo-700 mb-6"></div>
+
+            <!-- کپی رایت -->
+            <div class="text-center">
+                <p class="text-indigo-200">© ۱۴۰۴ - تمامی حقوق برای اقامتگاه گل‌های شمعدونی محفوظ است.</p>
+                <p class="text-indigo-300 text-sm mt-2">طراحی و توسعه با <i
+                        class="fas fa-heart text-red-500 animate-pulse"></i> توسط تیم طراحی ما</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://unpkg.com/jalalidatepicker/dist/jalalidatepicker.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: false
+        });
+    </script>
+
+</body>
+
+</html>
